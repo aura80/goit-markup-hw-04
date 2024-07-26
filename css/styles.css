@@ -95,6 +95,8 @@ img {
 .first-nav-links:first-child {
   position: relative;
   color: #404bbf;
+  transition-property: color;
+  color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-background .navigation .nav-links:hover,
@@ -118,6 +120,8 @@ img {
 
 .header-background .contact .first-contact-from-list .contact-adress {
   color: #434455;
+  transition-property: color;
+  color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-address {
@@ -131,6 +135,11 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.contact li:last-child {
+  transition-property: color;
+  color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-background .contact .contact-adress:hover,
