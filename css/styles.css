@@ -153,17 +153,17 @@ img {
   color: #404bbf;
 } */
 
-.contact li:last-child,
-.contact li:first-child {
+.contact li:first-child,
+.contact li:last-child {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact li:last-child:hover,
 .contact li:first-child:hover,
-.contact li:last-child:focus,
-.contact li:first-child:focus {
+.contact li:last-child:hover,
+.contact li:first-child:focus,
+.contact li:last-child:focus {
   color: #404bbf;
 }
 
