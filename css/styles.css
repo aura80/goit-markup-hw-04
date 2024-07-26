@@ -99,7 +99,9 @@ img {
 .header-background .navigation .nav-links.hero-one {
   position: relative;
   color: #404bbf;
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-background .navigation .nav-links.hero-one:hover,
@@ -145,13 +147,7 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
-
-/* .contact .contact-adress:hover,
-.contact .contact-adress:focus {
-  color: #404bbf;
-} */
 
 .contact li:first-child,
 .contact li:last-child {
