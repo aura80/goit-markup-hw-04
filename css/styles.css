@@ -94,6 +94,8 @@ img {
   letter-spacing: 0.02em;
 
   padding: 24px 0;
+
+  position: relative;
 }
 
 .header-background .navigation .nav-links.hero-one {
