@@ -66,8 +66,7 @@ img {
   color: #404bbf;
 
   transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-menu:hover {
@@ -103,14 +102,14 @@ img {
 
 .header-background .navigation .nav-links {
   position: relative;
-  /* color: #404bbf; */
+  color: #404bbf;
 }
 
-/* .header-background .navigation .nav-links:hover,
+.header-background .navigation .nav-links:hover,
 .header-background .navigation .nav-links:focus {
   color: #404bbf;
   text-decoration: underline;
-} */
+}
 
 .nav-links::after {
   content: "";
@@ -169,10 +168,10 @@ img {
   color: #404bbf;
 }
 
-/* .header-background .contact .contact-adress:hover,
+.header-background .contact .contact-adress:hover,
 .header-background .contact .contact-adress:focus {
   color: #404bbf;
-} */
+}
 
 .header-background {
   background-color: #e7e9fc;
