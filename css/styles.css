@@ -120,11 +120,6 @@ img {
 
 .header-background .contact .first-contact-from-list .contact-adress {
   color: #434455;
-  transition-property: color;
-}
-
-.header-background .contact .first-contact-from-list .contact-adress:hover {
-  color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-address {
@@ -140,16 +135,22 @@ img {
   letter-spacing: 0.02em;
 }
 
-.contact li:last-child {
+.contact li:last-child,
+.contact li:first-child {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-background .contact .contact-adress:hover,
-.header-background .contact .contact-adress:focus {
+.contact li:last-child:hover,
+.contact li:first-child:hover {
   color: #404bbf;
 }
+
+/* .header-background .contact .contact-adress:hover,
+.header-background .contact .contact-adress:focus {
+  color: #404bbf;
+} */
 
 .header-background {
   background-color: #e7e9fc;
