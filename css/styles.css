@@ -94,8 +94,12 @@ img {
 
 .navigation a .studio-nav {
   position: relative;
+}
+
+.navigation a {
   color: #404bbf;
 }
+
 /* .first-nav-links:first-child  */
 
 .header-background .navigation .nav-links:hover,
