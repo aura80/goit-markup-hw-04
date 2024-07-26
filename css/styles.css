@@ -286,6 +286,22 @@ img {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
+.icon-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+}
+
+svg {
+  width: 64px;
+  height: 64px;
+}
+
 .qualities-htrei.team {
   text-align: center;
   margin-bottom: 8px;
