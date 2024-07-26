@@ -168,6 +168,7 @@ img {
 } */
 
 .effective-background {
+  background-position: center;
   background-color: rgba(46, 47, 66, 0.7);
   background-image: linear-gradient(
       to bottom,
@@ -186,13 +187,6 @@ img {
   padding: 188px 0;
 
   max-width: 1440px;
-
-  /* width: 1440px;
-  height: 600px; */
-
-  /* top: 50%;
-  left: 50%; */
-  /* transform: translate(-50%, -50%); */
 
   background-position-x: 100%;
   background-position-y: 100%;
@@ -233,6 +227,10 @@ img {
 
   padding: 16px 32px 16px 32px;
   border-radius: 4px;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .service-button:hover,
