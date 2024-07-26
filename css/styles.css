@@ -143,7 +143,9 @@ img {
 }
 
 .contact li:last-child:hover,
-.contact li:first-child:hover {
+.contact li:first-child:hover,
+.contact li:last-child:focus,
+.contact li:first-child:focus {
   color: #404bbf;
 }
 
