@@ -147,17 +147,15 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
 
-.contact-adress {
   position: relative;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-adress:hover,
-.contact-adress:focus {
+.contact .contact-adress:hover,
+.contact .contact-adress:focus {
   color: #404bbf;
 }
 
