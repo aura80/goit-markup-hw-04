@@ -168,7 +168,6 @@ img {
 } */
 
 .effective-background {
-  background-position: center;
   background-color: rgba(46, 47, 66, 0.7);
   background-image: linear-gradient(
       to bottom,
@@ -179,7 +178,7 @@ img {
 
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: absolute;
+  background-position: center;
 
   top: 72px;
   /* left: 0; */
