@@ -58,7 +58,6 @@ img {
   color: #4d5ae5;
   text-transform: uppercase;
   margin-right: 76px;
-  position: relative;
 }
 
 .nav-menu {
@@ -91,6 +90,11 @@ img {
   letter-spacing: 0.02em;
 
   padding: 24px 0;
+}
+
+.first-nav-links:first-child {
+  position: relative;
+  color: #404bbf;
 }
 
 .header-background .navigation .nav-links:hover,
