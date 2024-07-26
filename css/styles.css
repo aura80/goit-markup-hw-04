@@ -92,11 +92,10 @@ img {
   padding: 24px 0;
 }
 
-.navigation a .studio-nav {
+.first-nav-links:first-child {
   position: relative;
+  color: #404bbf;
 }
-
-/* .first-nav-links:first-child  */
 
 .header-background .navigation .nav-links:hover,
 .header-background .navigation .nav-links:focus {
