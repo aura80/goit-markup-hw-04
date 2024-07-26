@@ -63,6 +63,7 @@ img {
 .nav-menu {
   display: flex;
   gap: 40px;
+  color: #404bbf;
 }
 
 .navigation {
@@ -75,9 +76,9 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.header-background .navigation > ul .first-nav-links > a {
+/* .header-background .navigation > ul .first-nav-links > a {
   color: #2e2f42;
-}
+} */
 
 .navigation .nav-links {
   display: flex;
