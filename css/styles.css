@@ -92,7 +92,8 @@ img {
   padding: 24px 0;
 }
 
-.first-nav-links:first-child {
+/* .first-nav-links:first-child  */
+.navigation a {
   position: relative;
   color: #404bbf;
 }
