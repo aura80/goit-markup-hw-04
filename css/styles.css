@@ -64,6 +64,13 @@ img {
   display: flex;
   gap: 40px;
   color: #404bbf;
+
+  transition-property: color;
+  color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-menu:hover {
+  color: #404bbf;
 }
 
 .navigation {
@@ -95,16 +102,14 @@ img {
 
 .header-background .navigation .nav-links {
   position: relative;
-  color: #404bbf;
-  transition-property: color;
-  color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* color: #404bbf; */
 }
 
-.header-background .navigation .nav-links:hover,
+/* .header-background .navigation .nav-links:hover,
 .header-background .navigation .nav-links:focus {
   color: #404bbf;
   text-decoration: underline;
-}
+} */
 
 .nav-links::after {
   content: "";
