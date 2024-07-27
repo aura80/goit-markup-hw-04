@@ -617,11 +617,11 @@ img {
   justify-content: center;
 }
 
-.footer-social-a:hover {
+.footer-social-item:hover {
   background-color: #31d0aa;
 }
 
-.footer-social-a:focus {
+.footer-social-item:focus {
   background-color: #31d0aa;
 }
 
