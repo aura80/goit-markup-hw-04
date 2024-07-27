@@ -619,8 +619,11 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-a:hover,
-.footer-social-item .footer-social-a:focus {
+.footer-social-a:hover {
+  background-color: #31d0aa;
+}
+
+.footer-svg:focus {
   background-color: #31d0aa;
 }
 
