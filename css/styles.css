@@ -481,7 +481,7 @@ img {
 .portfolio-item:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  background-color: #404bbf;
+  /* background-color: #404bbf; */
 }
 
 .portfolio-image-div {
@@ -553,8 +553,13 @@ img {
 }
 
 .foo {
-  display: inline-block;
   margin-left: 156px;
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-div {
+  margin-right: 120px;
 }
 
 .studio-footer {
@@ -583,4 +588,23 @@ img {
   width: 264px;
   height: 72px;
   display: inline-block;
+}
+
+.footer-social-p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-social-item {
+  width: 40px;
+  height: 40px;
 }
