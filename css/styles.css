@@ -552,7 +552,7 @@ img {
   align-items: flex-start;
 }
 
-.foo {
+.container.foo {
   margin-left: 156px;
   display: flex;
   align-items: baseline;
