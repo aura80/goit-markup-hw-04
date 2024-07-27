@@ -545,7 +545,7 @@ img {
   padding: 100px 0;
 }
 
-.container.foo {
+.foo {
   margin-left: 156px;
   display: flex;
   align-items: baseline;
