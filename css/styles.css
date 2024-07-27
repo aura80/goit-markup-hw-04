@@ -615,13 +615,16 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-item:hover {
+.footer-social-a:hover {
   background-color: #31d0aa;
 }
 
-.footer-social-item:focus {
+.footer-social-a:focus {
   background-color: #31d0aa;
 }
 
