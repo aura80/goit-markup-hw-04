@@ -546,12 +546,6 @@ img {
   padding: 100px 0;
 }
 
-.footer-background .container {
-  display: inline-block;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
 .container.foo {
   margin-left: 156px;
   display: flex;
